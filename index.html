@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Database</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+		<link rel="stylesheet" href="css/database.css"/>
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+		<script src="js/database.js"></script>
+	</head>
+
+	<body>
+
+		<h1> Nutritional database </h1>
+		<p> Select a chocolate </p>
+		<select id="choice" onclick="choose()">
+			<option class="list" value="1">Mars Bar</option>
+			<option class="list" value="2">Galaxy Honeycomb</option>
+			<option class="list" value="3">Maltesers</option>
+			<option class="list" value="4">Fudge Minis</option>
+			<option class="list" value="5">Dairy Milk</option>
+		</select>
+
+		<p id="data"></p>
+
+	</body>
+</html>
